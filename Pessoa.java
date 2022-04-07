@@ -1,6 +1,6 @@
 public class Pessoa {
 
-    private String nome;
+    public String nome;
     private String sobreNome;
     private int idade;
     private Integer cpf;
@@ -19,40 +19,37 @@ public class Pessoa {
     public String getNome(){
         return this.nome;
     }
-    public String setNome(String nome) {
-      return this.nome = nome;
+    public void setNome(String nome) {
+       this.nome = nome;
     }
     public String getSobreNome(){
         return this.sobreNome;
     }
-    public String setSobreNome(String sobreNome){
-        return this.sobreNome = sobreNome;
+    public void setSobreNome(String sobreNome){
+        this.sobreNome = sobreNome;
     }
     public int getIdade(){
         return this.idade;
     }
-    public int setIdade(int idade){
-        return this.idade = idade;
+    public void setIdade(int idade){
+        this.idade = idade;
     }
     public Integer getCpf(){
         return this.cpf;
     }
-    public Integer setCpf(Integer cpf){
-        return this.cpf = cpf;
+    public void setCpf(Integer cpf){
+        this.cpf = cpf;
     }
     public double getAltura(){
         return this.altura;
     }
-    public double setAltura(double altura){
-        return this.altura = altura;
+    public void setAltura(double altura){
+        this.altura = altura;
     }
     public double getPeso(){
         return this.peso;
     }
-    public double setPeso(double peso){
-        return this.peso = peso;
+    public void setPeso(double peso){
+        this.peso = peso;
     }
-
-
-
 }

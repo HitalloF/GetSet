@@ -3,10 +3,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Pessoa p;
-        p = new Pessoa();
+        Jogador j;
+        j = new Jogador();
 
-        p.setNome("Hitallo");
+        j.Jogar();
+
+
+
+  /*     p.setNome("Hitallo");
         p.setSobreNome("Freitas");
         p.setIdade(25);
         p.setCpf(123123);
@@ -18,7 +22,7 @@ public class Main {
         System.out.println(p.getIdade());
         System.out.println(p.getCpf());
         System.out.println(p.getAltura());
-        System.out.println(p.getPeso());
+        System.out.println(p.getPeso());*/
 
     }
 }
